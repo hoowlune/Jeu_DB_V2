@@ -1,5 +1,5 @@
 class Player (Entity):
-    def __init__(self, name : str, attack : int, defense : int,):
+    def __init__(self, name : str, attack : int):
         super().__init__(name, attack, defense)
 
 def CreateTeam(Characters: list):

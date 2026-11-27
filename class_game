@@ -1,3 +1,4 @@
+from database import db
 from player import Player 
 from vague import Vague
 

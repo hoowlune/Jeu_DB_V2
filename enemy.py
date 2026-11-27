@@ -1,6 +1,13 @@
-class enemy:
-    def __init__(self, name : str, attack : int, defense : int, level : int):
-        self.name = name
-        self.attack = attack
-        self.defense = defense
-        self.level = level
+from entity import Entity
+
+class Enemy(Entity):
+    def __init__(self, name, attack, defense, level):
+        super().__init__(name, attack, defense)
+        self.dropables = []
+
+        def DropLoot(self):
+            return 
+
+        def Playturn(self,target):
+            self.Attack(target)
+        
