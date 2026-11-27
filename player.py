@@ -1,13 +1,17 @@
+from entity import Entity
+from character import Character
+from item import Item
+
 class Player (Entity):
-    def __init__(self, name : str, attack : int):
+    def __init__(self, name : str, attack : int, defense : int):
         super().__init__(name, attack, defense)
 
-def CreateTeam(Characters: list):
+    def CreateTeam(Characters: list):
 
-def PickCharacter(Character):
+    def PickCharacter(Character):
 
-def IsTeamAlive(Team: list):
+    def IsTeamAlive(Team: list):
 
-def CheckInventory(Team):
+    def CheckInventory(Team):
 
-def UseItem(Item):
+    def UseItem(Item):

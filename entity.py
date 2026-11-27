@@ -10,7 +10,7 @@ class Entity :
     
     def IsAlive(self):
         return self.hp > 0
-    
+ 
         
     def TakeDamage(self, amount: int):
             damage = max(0, amount - self.defense)

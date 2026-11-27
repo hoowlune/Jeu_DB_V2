@@ -5,9 +5,9 @@ class Enemy(Entity):
         super().__init__(name, attack, defense)
         self.dropables = []
 
-        def DropLoot(self):
-            return 
+    def DropLoot(self):
+        return 
 
-        def Playturn(self,target):
-            self.Attack(target)
+    def Playturn(self,target):
+        self.Attack(target)
         
