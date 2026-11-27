@@ -1,0 +1,14 @@
+from player import Player 
+from vague import Vague
+
+def Save Game()
+
+def Load Game()
+
+def Lauch Game()
+
+def ShowLeaderboard()
+
+def Exit()
+
+

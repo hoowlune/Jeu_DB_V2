@@ -1,16 +1,13 @@
-class Player : 
-    def __init__(self, name : str, score : int, characterTeam : list, inventory : list,):
-        self.name = name
-        self.score = score
-        self.characterTeam = characterTeam
-        self.inventory = inventory
+class Player (Entity):
+    def __init__(self, name : str, attack : int, defense : int,):
+        super().__init__(name, attack, defense)
 
-def CreateTeam():{}
+def CreateTeam(Characters: list):
 
-def PickCharacter(Character):{}
+def PickCharacter(Character):
 
-def IsTeamAlive():{}
+def IsTeamAlive(Team: list):
 
-def CheckInventory():{}
+def CheckInventory(Team):
 
-def UseItem(Item):{}
+def UseItem(Item):
